@@ -122,7 +122,7 @@ struct BlueBoxView: View {
 
                 if isExpanded {
                     VStack {
-                        Text("Made by Xavier Vasco")
+                        Text("Made by Tom")
                             .foregroundColor(.white)
                             .font(.title3)
                             .fontWeight(.medium)
@@ -130,7 +130,7 @@ struct BlueBoxView: View {
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .padding(.leading, 20)
                         
-                        Text("xaviervasc.co")
+                        Text("tom.com")
                             .foregroundColor(.white)
                             .font(.title3)
                             .multilineTextAlignment(.leading)
